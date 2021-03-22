@@ -1,0 +1,18 @@
+*{margin: 0;}
+
+.display{
+  margin: 1vw 1vw 1vw 0;
+  background-color: gray;
+  color: white;
+  border-radius: 1vh;
+  font-size: 5vh;
+  height: 8vh;
+}
+.linha{
+  margin-top: 5px;
+}
+.col-3 button, .col-6 button{
+  height: 8vh;
+  font-weight: bold;
+  font-size: 6vw;
+}
