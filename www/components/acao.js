@@ -38,4 +38,36 @@ $(document).on('click', '.calcular', function(){
   display = resultado;
 
 });
-// 
+// operação subtração
+$(document).on('click', '.calcular', function(){
+  n2 = display;
+  if(ope == "-"){
+    var resultado = parseFloat(n1)-parseFloat(n2);
+    $('#display').html(resultado);
+  }
+  // outras operações, continuar conta a partir do primeiro resultado
+  display = resultado;
+
+});
+// operação multiplicação
+$(document).on('click', '.calcular', function(){
+  n2 = display;
+  if(ope == "*"){
+    var resultado = parseFloat(n1)*parseFloat(n2);
+    $('#display').html(resultado);
+  }
+  // outras operações, continuar conta a partir do primeiro resultado
+  display = resultado;
+
+});
+// operação divisão
+$(document).on('click', '.calcular', function(){
+  n2 = display;
+  if(ope == "/"){
+    var resultado = parseFloat(n1)/parseFloat(n2);
+    $('#display').html(resultado);
+  }
+  // outras operações, continuar conta a partir do primeiro resultado
+  display = resultado;
+
+});
